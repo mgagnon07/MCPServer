@@ -21,7 +21,7 @@ from fastmcp import FastMCP
 # Use PORT environment variable if set, otherwise default to 8000
 port = int(os.environ.get("PORT", 8000))
 
-# Create MCP server
+# Create MCP server marty
 mcp = FastMCP("My Server")
 
 # Tool 1: add two numbers
